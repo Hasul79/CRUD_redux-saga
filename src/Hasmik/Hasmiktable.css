@@ -1,0 +1,293 @@
+.body {
+	width: 100%;
+	height: 635px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.8;
+  }
+
+  .nkar {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -99;
+	
+	
+  }
+ .cont-image{
+   position:relative;
+   right: 80px;
+}
+  
+.prof {
+    height: 100px;
+    width: 100px;
+	border-radius: 130px;
+	z-index: 99;
+	margin: 10px 0;
+  } 
+.wrapper{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.wrapper-content {
+	display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+}
+.forma{
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	left: 0;
+}
+/* span{
+	font-size: 30px;
+	text-align: center;
+} */
+.input_name {
+	padding: 10px;
+	margin: 5px 0;
+	text-align: left;
+	background-color: rgba(203, 163, 240, 0.8);
+	color: black;
+	font-size: 30px;
+	border-radius: 20px;
+	border: 2px solid black;
+}
+
+.buttons-wrapper {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin: 10px 0;
+}
+.button_input {
+	width: 180px;
+	height: 50px;
+	background: blueviolet;
+	margin:0 5px;
+	border-radius: 15px;
+	border: 2px solid black;
+	color : black;
+	font-weight: 600;
+	font-size: 20px;
+
+}
+.button_input:hover {
+	background-color:rgb(225, 209, 209);
+	color: blueviolet;
+}
+
+.table {
+	margin: 10px;
+	width: 100%;
+	border-collapse: collapse;
+	border: 1px solid white;
+	color: black;
+}
+.thb {
+	max-width: 140px;
+	border: 2px solid black;
+	text-align: center;
+	padding: 5px;
+	background-color: rgba(203, 163, 240, 0.8);
+	color: black;
+	font-size: 20px;
+}
+.tha{
+	min-width: 30px;
+	border: 2px solid black;
+	text-align: center;
+	padding: 5px;
+	background-color: rgba(203, 163, 240, 0.8);
+	color: black;
+	font-size: 20px;
+}
+
+.td {
+	border: 2px solid blueviolet;
+	background-color:antiquewhite;
+	padding: 5px;
+	color: black;
+	font-weight: 900;
+	text-align: center;
+}
+.tdt {
+	border: 2px solid blueviolet;
+	background-color: antiquewhite;
+	padding: 5px;
+	color: black;
+	font-weight: 900;
+	text-align: center;
+}
+.tda {
+	border: 2px solid blueviolet;
+	background-color: antiquewhite;
+	padding: 5px;
+	color: black;
+	font-weight: 900;
+	text-align: center;
+}
+/* .td-btn {
+	width: 260px;
+} */
+.edit-action {
+  background-color: blueviolet;
+  color: black;
+  font-size: 18px;
+  width: 90px;
+  height: 30px;
+  margin: 0 10px;
+  border-radius: 10px;
+  
+}
+.edit-action:hover{
+	background-color:rgb(225, 209, 209);
+	color: blueviolet;
+  }
+.remove-action{
+background-color: blueviolet;
+  color: black;
+  font-size: 18px;
+  width: 100px;
+  height: 30px;
+  margin: 0 10px;
+  border-radius: 10px;
+}
+.remove-action:hover{
+	background-color: rgb(225, 209, 209);
+	color: blueviolet;
+  }
+
+ .home-btn{
+	position: absolute;
+	bottom: 20px;
+	left: 25px;
+	min-width: 150px;
+	border: 2px solid black;
+	text-align: center;
+	padding: 5px;
+	background-color:blueviolet;
+	color: black;
+	border-radius: 10px;
+	font-size: 20px;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 2px;
+	
+ }
+ .home-btn:hover{
+	background-color: rgb(225, 209, 209);
+	color: blueviolet;
+	transform: scale(1.3);
+    transition-duration: 0.5s;     
+  cursor: pointer;
+ }
+ .bg{
+	position: absolute;
+	top: 5px;
+	left: 0;
+	min-width: 70px;
+	border: 2px solid black;
+	text-align: center;
+	padding: 5px;
+	background-color:blueviolet;
+	color: white;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 2px;
+ }
+
+ @media screen and (max-width: 900px )  {
+	.cont-image .prof{
+		width:30%;
+		position: absolute;
+		left: 20px;
+		top:70px;
+	}
+	.table-data {
+		width:90%;
+		position: absolute;
+		top: 35px;
+		left:0;
+		float: left;
+	}
+	 .thb , .tha, .td, .tda, .tdt{
+		font-size: 80%;
+		font-size: 80%;
+		
+	}
+	.forma{
+		width:30%;
+		float: left;
+		top:180px;
+		margin:1px;
+	}
+	.input_name{
+		font-size: 15px;
+	}
+	.buttons-wrapper ,
+	 .button_input,
+	 .remove-action,
+	 .edit-action {
+		position: relative;
+		width: 60px;
+		height: 25px;
+		font-size: 11px;
+		margin: 2px;
+		padding: 1px;
+		
+	}
+	.home-btn{
+	position: absolute;
+	    left:0;
+		width:20px;
+		height: 35px;
+		bottom: 15px;
+	}
+	
+ }
+ @media screen and (max-width: 530px ){
+	.thb , .tha, .td, .tda, .tdt{
+		font-size: 100%;
+		font-size: 50%;	
+	}
+	.buttons-wrapper ,
+	 .button_input {
+		position: relative;
+		width: 55px;
+		height: 30px;
+		bottom: 5px;
+		font-size: 11px;
+		margin: 3px;
+		padding: 1px;
+		
+	}
+	.remove-action,
+	 .edit-action{
+		margin-top: 2px;
+		margin-bottom: 0;
+	 }
+ }
+ @media screen and (max-width: 400px ) {
+	.remove-action,
+	.edit-action{
+	   width:30px;
+	   height: 15px;
+	   font-size: 9px;
+	}
+	.buttons-wrapper ,
+	 .button_input {
+		position: relative;
+		width: 45px;
+		height: 30px;
+		bottom: 5px;
+		font-size: 11px;
+		margin: 3px;
+		padding: 1px;
+	}
+ }
